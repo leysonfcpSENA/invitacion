@@ -1,0 +1,164 @@
+[
+  {
+    "icon": "fa fa-home",
+    "slug": "external",
+    "title": "Volver al inicio",
+    "path": "index.html"
+  },  
+  { 
+    "id": 1,
+    "icon": "fa fa-play-circle",
+    "slug": "introduccion",
+    "title": "Introduccion",
+    "breadcrumb": ["Inicio","Introducción"],
+    "path": "pages/introduccion.html"     
+  },
+  { 
+    "id": 1,
+    "icon": "fa fa-play-circle",
+    "slug": "componentes-bs",
+    "title": "1. Componentes",
+    "breadcrumb": ["Inicio","Introducción"],
+    "path": "pages/1-tema.html",    
+    "submenu": [
+      {
+        "icon": "fa fa-file-text",
+        "slug": "componentes-bs",
+        "title": "Títulos",
+        "anchor": "titulos"
+      },   
+      {
+        "icon": "fa fa-file-text",
+        "slug": "componentes-bs",
+        "title": "Típografía",
+        "anchor": "tipografia"
+      },
+      {
+        "icon": "fa fa-file-text",
+        "slug": "componentes-bs",
+        "title": "Cards",
+        "anchor": "card"
+      },
+      {
+        "icon": "fa fa-file-text",
+        "slug": "componentes-bs",
+        "title": "Card border",
+        "anchor": "cardborder"
+      },     
+      {
+        "icon": "fa fa-file-text",
+        "slug": "componentes-bs",
+        "title": "Header Step",
+        "anchor": "headerstep"
+      },
+      {
+        "icon": "fa fa-file-text",
+        "slug": "componentes-bs",
+        "title": "Card + Imagen",
+        "anchor": "cardimagen"
+      },    
+      {
+        "icon": "fa fa-file-text",
+        "slug": "componentes-bs",
+        "title": "Card + Video",
+        "anchor": "cardvideo"
+      },
+      {
+        "icon": "fa fa-file-text",
+        "slug": "componentes-bs",
+        "title": "Header Fluido",
+        "anchor": "headerfluid"
+      },      
+      {
+        "icon": "fa fa-file-text",
+        "slug": "componentes-bs",
+        "title": "Header Arrow",
+        "anchor": "headerarrow"
+      },
+      {
+        "icon": "fa fa-file-text",
+        "slug": "componentes-bs",
+        "title": "Jumbotron",
+        "anchor": "jumbotron"
+      },    
+      {
+        "icon": "fa fa-file-text",
+        "slug": "componentes-bs",
+        "title": "Card Avatar Top",
+        "anchor": "cardavatartop"
+      },
+      {
+        "icon": "fa fa-file-text",
+        "slug": "componentes-bs",
+        "title": "Card Avatar Left",
+        "anchor": "cardavatarleft"
+      },    
+      {
+        "icon": "fa fa-file-text",
+        "slug": "componentes-bs",
+        "title": "Botón enlace a recursos externos",
+        "anchor": "medialink"
+      },
+      {
+        "icon": "fa fa-file-text",
+        "slug": "componentes-bs",
+        "title": "Question Header",
+        "anchor": "question"
+      },
+      {
+        "icon": "fa fa-file-text",
+        "slug": "componentes-bs",
+        "title": "Nav Tab",
+        "anchor": "tabsecored"
+      },   
+      {
+        "icon": "fa fa-file-text",
+        "slug": "componentes-bs",
+        "title": "Galería",
+        "anchor": "gallery"
+      },
+      {
+        "icon": "fa fa-file-text",
+        "slug": "componentes-bs",
+        "title": "Navs Bootstrap",
+        "anchor": "bscomponentes"
+      },   
+      {
+        "icon": "fa fa-file-text",
+        "slug": "componentes-bs",
+        "title": "Header + Nav",
+        "anchor": "buttonav"
+      },
+      {
+        "icon": "fa fa-file-text",
+        "slug": "componentes-bs",
+        "title": "Collapsable",
+        "anchor": "collapsable"
+      },     
+      {
+        "icon": "fa fa-file-text",
+        "slug": "componentes-bs",
+        "title": "Slider",
+        "anchor": "slider"
+      },
+      {
+        "icon": "fa fa-file-text",
+        "slug": "componentes-bs",
+        "title": "Tables",
+        "anchor": "tables"
+      },      
+      {
+        "icon": "fa fa-file-text",
+        "slug": "componentes-bs",
+        "title": "Lists",
+        "anchor": "lists"
+      }      
+    ]   
+  },
+  {
+    "icon": "fa fa-question-circle",
+    "slug": "actividad-1",
+    "title": "Actividad didáctica",
+    "path": "pages/actividad-1.html"
+  } 
+]
