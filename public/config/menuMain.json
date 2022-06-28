@@ -8,10 +8,24 @@
   { 
     "id": 1,
     "icon": "fa fa-play-circle",
-    "slug": "introduccion",
-    "title": "Introduccion",
-    "breadcrumb": ["Inicio","Introducción"],
-    "path": "pages/introduccion.html"     
+    "slug": "misa",
+    "title": "misa",
+    "breadcrumb": ["Inicio","misa"],
+    "path": "pages/misa.html"     
+  },
+  { 
+    "id": 1,
+    "icon": "fa fa-play-circle",
+    "slug": "recepcion",
+    "title": "recepcion",
+    "breadcrumb": ["Inicio","recepcion"],
+    "path": "pages/recepcion.html"     
+  },
+  {
+    "icon": "fa fa-question-circle",
+    "slug": "asistencia",
+    "title": "Asistencia",
+    "path": "pages/asistencia.html"
   },
   { 
     "id": 1,
@@ -154,11 +168,5 @@
         "anchor": "lists"
       }      
     ]   
-  },
-  {
-    "icon": "fa fa-question-circle",
-    "slug": "actividad-1",
-    "title": "Actividad didáctica",
-    "path": "pages/actividad-1.html"
-  } 
+  }
 ]
