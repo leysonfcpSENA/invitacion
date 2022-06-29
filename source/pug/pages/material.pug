@@ -1,0 +1,47 @@
+include ../mixins/functions
+
+doctype
+html(lang="es")
+    head
+        include ../includes/head.pug
+
+
+    body#page-home.theme-dark.page-header-textura
+
+
+        section#mainContent      
+
+            h2 Puntos claves
+            .brand-line-primary
+
+            .row.justify-content-center
+                .col-12.col-sm-10
+                    .card.wow.flipInX(data-wow-delay=".4s")
+                        
+                        .card-body
+
+                            ul.list-group.list-group-flush.list.my-n3.nav-temas
+                                +navTemaItem('cronograma', 'Cronograma', '#cronograma')
+                                +navTemaItem('misa', 'Misa', '#misa')
+                                +navTemaItem('recepcion', 'Recepción', '#recepcion')
+                                +navTemaItem('protocolo', 'Protocolo', '#protocolo')
+                                +navTemaItem('asistencia', 'Confirmar asistencia', '#asistencia')   
+            #cronograma
+                include cronograma.pug   
+            #misa
+                include misa.pug     
+            #recepcion
+                include recepcion.pug
+            #protocolo
+                include protocolo.pug
+            #asistencia
+                include asistencia.pug
+
+
+
+        a.scroll-to-top-btn
+            .fa.fa-angle-up.fa-2x
+
+        script(src="assets/js/vendor.js")
+        script(src="js/local.js")
+

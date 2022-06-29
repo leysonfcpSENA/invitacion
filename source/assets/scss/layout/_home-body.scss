@@ -1,0 +1,49 @@
+.curso-resultados {
+    position: relative;
+    padding: 2rem 1rem;
+    background: url(../images/header/header_pattern.jpg) scroll bottom center repeat !important;
+
+
+}
+
+.curso-indice-tematico {
+    padding: 2rem 1rem;
+    background: url(../images/header/header_pattern.jpg) scroll bottom center repeat !important;
+}
+
+
+.section-light {
+    position: relative;
+    padding: 2rem 1rem;
+    background: url(../images/header/header_pattern.jpg) scroll bottom center repeat !important;
+
+    &::before {
+        content: '';
+        border-style: solid;
+        border-width:50px 50px 0px 50px;
+        border-color: white transparent transparent transparent;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -48px;
+        margin-top: -15px; 
+        
+    }
+}
+
+.section-dark {
+    position: relative;
+
+    &::before {
+        content: '';
+        border-style: solid;
+        border-width:50px 50px 0px 50px;
+        border-color: $body-bg transparent transparent transparent;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -48px;
+        margin-top: -15px; 
+        z-index: 99;
+    }
+}

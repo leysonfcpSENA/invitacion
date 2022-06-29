@@ -1,0 +1,78 @@
+include mixins/functions
+
+doctype
+html(lang="es")
+    head
+        include includes/head.pug
+
+
+    body#page-home.theme-dark.page-header-textura
+
+
+        section#login.curso-indice-tematico.section
+
+            .container
+
+                .row.justify-content-center
+                    .col-12.col-sm-10
+                        input.form-control(name='username', placeholder="Ingrese código de invitación", autofocus)
+
+        section#invitacion.curso-indice-tematico.section
+            .container
+                .row.justify-content-center
+                    .col-12.col-sm-10
+
+                        h3#curso-titulo-componente.curso-subtitulo BODA
+                        h1#curso-titulo-tema.curso-titulo LEYSON & ERIKA
+
+                        .brand-line-primary
+
+                        p.curso-descripcion Hola 
+
+                        p.curso-descripcion(id="invitado")
+
+                        p.curso-descripcion Dios nos ha regalado la oportunidad de unir nuestras vidas y de realizar un pacto de amor ante El y así recibir su bendición para esta nueva etapa.
+
+                        p.curso-descripcion Por esto, hoy extendesmos esta invitación a todos los que han sido parte de nuestras vidas para que nos acompañen con su mejor energia
+
+
+                        .col-12.col-lg-6.text-center
+                            .d-none.d-lg-block
+                                img(src= srcImagen).curso-imagen
+
+
+                        h2 Puntos claves
+                        .brand-line-primary
+
+                        .row.justify-content-center
+                            .col-12.col-sm-10
+                                .card.wow.flipInX(data-wow-delay=".4s")
+                                    
+                                    .card-body
+
+                                        ul.list-group.list-group-flush.list.my-n3.nav-temas
+                                            +navTemaItem('cronograma', 'Cronograma', '#cronograma')
+                                            +navTemaItem('misa', 'Misa', '#misa')
+                                            +navTemaItem('recepcion', 'Recepción', '#recepcion')
+                                            +navTemaItem('protocolo', 'Protocolo', '#protocolo')
+                                            +navTemaItem('asistencia', 'Confirmar asistencia', '#asistencia')   
+                        #cronograma
+                            include pages/cronograma.pug   
+                        #misa
+                            include pages/misa.pug     
+                        #recepcion
+                            include pages/recepcion.pug
+                        #protocolo
+                            include pages/protocolo.pug
+                        #asistencia
+                            include pages/asistencia.pug
+
+
+        script(src="assets/js/vendor.js")
+        script(src="assets/js/global.js")        
+        script(src="assets/js/pages.js")
+
+
+
+
+
