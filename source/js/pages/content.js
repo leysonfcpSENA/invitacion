@@ -12,17 +12,29 @@ var invitado = document.getElementById('invitado');
 function updateValue(e) {
   console.log("hola desde javascript");
   let valor = e.srcElement.value;
+  let codigoCorrecto = false;
   
   if(valor == "03092015"){
+    invitado.innerHTML =  "ERIKA FERNANDA SUAREZ MORENO <br>  LEYSON FABIAN CASTAÑO PEREZ";
+    codigoCorrecto = true;
+  } 
+
+  if(valor == "11111111"){
+    invitado.innerHTML =  "NORA ALBA PEREZ LOZANO";
+    codigoCorrecto = true;
+  } 
+
+  if(valor == "00000000"){
+    invitado.innerHTML =  "SANDRA PATRICIA MORENO";
+    codigoCorrecto = true;
+  } 
   
+
+  if(codigoCorrecto == true){
     seccionLogin.style.display = "none";
     seccionInvitado.style.display = "flex";
-    invitado.innerHTML =  "ERIKA FERNANDA SUAREZ MORENO <BR> LEYSON FABIAN CASTAÑO PEREZ";
-    
-    
   } else {
     invitado.innerHTML = "Codigo equivocado";
-    
   }
 }
 
