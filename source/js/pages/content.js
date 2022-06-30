@@ -29,6 +29,10 @@ function updateValue(e) {
     codigoCorrecto = true;
   } 
   
+  if(valor == "0001"){
+    invitado.innerHTML =  "GLORIA AMPARO LOPEZ ESCUDERO";
+    codigoCorrecto = true;
+  } 
 
   if(codigoCorrecto == true){
     seccionLogin.style.display = "none";
@@ -38,8 +42,3 @@ function updateValue(e) {
   }
 }
 
-function nombreInvitado(){
-    console.log("hola desde nombreInvitado");
-    invitado = document.getElementById('invitado');invitado
-    invitado.innerHTML =  "desde la funcion";
-}
