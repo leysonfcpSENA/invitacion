@@ -50,7 +50,7 @@ html(lang="es")
                         .brand-line-primary
 
                         .row.justify-content-center
-                            .col-12.col-sm-10
+                            .col-12.col-sm-7
                                 .card.wow.flipInX(data-wow-delay=".4s")
                                     
                                     .card-body
@@ -60,7 +60,11 @@ html(lang="es")
                                             +navTemaItem('misa', 'Ceremonía', '#misa')
                                             +navTemaItem('recepcion', 'Recepción', '#recepcion')
                                             +navTemaItem('protocolo', 'Protocolo', '#protocolo')
-                                            +navTemaItem('asistencia', 'Confirmar asistencia', '#asistencia')   
+                                            +navTemaItem('asistencia', 'Confirmar asistencia', '#asistencia')
+                            .col-12.col-sm-5   
+                                .text-center.p-2
+                                    img(src="assets/images/angeles.gif", alt="")
+
                         #cronograma
                             include pages/cronograma.pug   
                         #misa

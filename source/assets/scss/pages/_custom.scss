@@ -256,7 +256,7 @@ ol.lista > li.mas:before {
 .corazon {
     animation-name: scale;
     animation-duration: 4s;
-    animation-iteration-count: 10;
+    animation-iteration-count: infinite;
     animation-direction: alternate-reverse;
 }
 
