@@ -252,3 +252,16 @@ ol.lista > li.mas:before {
 .border-bottom-orange {
     border-bottom: 5px solid $dark-orange;    
 }
+
+.corazon {
+    animation-name: scale;
+    animation-duration: 4s;
+    animation-iteration-count: 10;
+    animation-direction: alternate-reverse;
+}
+
+
+@keyframes scale {
+  from {transform: scale(1, 1);}
+  to{transform: scale(0.8, 0.8);}
+}
