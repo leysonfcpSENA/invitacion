@@ -265,3 +265,36 @@ ol.lista > li.mas:before {
   from {transform: scale(1, 1);}
   to{transform: scale(0.8, 0.8);}
 }
+
+.flor-derecha {
+    position: relative;
+    display: flex;
+    margin-left: -16rem;
+    margin-top: -9em;
+    width: 400px;
+}
+
+.flor-izquierda {
+    position: relative;
+    display: flex;
+    margin-left: 2rem;
+    margin-top: -3em;
+    width: 400px;
+}
+
+@media (max-width: 1000px) {
+    .flor-derecha {
+        position: relative;
+        display: flex;
+        margin-left: -12rem;
+        margin-top: -6em;
+        width: 250px;
+    }
+    .flor-izquierda {
+        position: relative;
+        display: flex;
+        margin-left: 0rem;
+        margin-top: 3em;
+        width: 250px;
+    }
+  }
