@@ -298,3 +298,27 @@ ol.lista > li.mas:before {
         width: 250px;
     }
   }
+
+  .fadeTop {
+    opacity: 0; 
+    transform: translate(0, 20vh);
+    transition: all 3s;
+  }
+  
+  .fadeRight {
+    opacity: 0;
+    transform: translate(20vh, 0vh);
+    transition: all 3s;
+  }
+  
+  .fadeLeft {
+    opacity: 0;
+    transform: translate(-20vh, 0vh);
+    transition: all 3s;
+  }
+
+  .visible {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+    

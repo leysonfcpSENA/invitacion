@@ -9,8 +9,62 @@ seccionInvitado.style.display = "none";
 
 var invitado = document.getElementById('invitado');
 
+window.addEventListener('scroll', function()  {
+
+  let screenSize = window.innerHeight;
+
+  let imgCronograma = document.getElementById('imgCronograma');
+  let txtCronograma = document.getElementById('txtCronograma');
+
+  let imgMisa = document.getElementById('imgMisa');
+  let txtMisa = document.getElementById('txtMisa');
+
+  let imgRecepcion = document.getElementById('imgRecepcion');
+  let txtRecepcion = document.getElementById('txtRecepcion');
+
+  let imgProtocolo = document.getElementById('imgProtocolo');
+
+  let imgAsistencia = document.getElementById('imgAsistencia');
+  
+  if(imgCronograma.getBoundingClientRect().top < screenSize) {
+    imgCronograma.classList.add('visible');
+    txtCronograma.classList.add('visible');
+  } else {
+    imgCronograma.classList.remove('visible');
+    txtCronograma.classList.remove('visible');
+  }
+  
+  if(imgMisa.getBoundingClientRect().top < screenSize) {
+    imgMisa.classList.add('visible');
+    txtMisa.classList.add('visible');
+  } else {
+    imgMisa.classList.remove('visible');
+    txtMisa.classList.remove('visible');
+  }
+  
+  if(imgRecepcion.getBoundingClientRect().top < screenSize) {
+    imgRecepcion.classList.add('visible');
+    txtRecepcion.classList.add('visible');
+  } else {
+    imgRecepcion.classList.remove('visible');
+    txtRecepcion.classList.remove('visible');
+  }
+  
+  if(imgProtocolo.getBoundingClientRect().top < screenSize) {
+    imgProtocolo.classList.add('visible');
+  } else {
+    imgProtocolo.classList.remove('visible');
+  }
+
+  if(imgAsistencia.getBoundingClientRect().top < screenSize) {
+    imgAsistencia.classList.add('visible');
+  } else {
+    imgAsistencia.classList.remove('visible');
+  }
+
+});
+
 function updateValue(e) {
-  console.log("hola desde javascript");
   let valor = e.srcElement.value;
   let codigoCorrecto = false;
   
