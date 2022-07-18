@@ -26,7 +26,7 @@ window.addEventListener('scroll', function()  {
 
   let imgAsistencia = document.getElementById('imgAsistencia');
   
-  if(imgCronograma.getBoundingClientRect().top < screenSize) {
+  if(txtCronograma.getBoundingClientRect().top < screenSize) {
     imgCronograma.classList.add('visible');
     txtCronograma.classList.add('visible');
   } else {
@@ -34,7 +34,7 @@ window.addEventListener('scroll', function()  {
     txtCronograma.classList.remove('visible');
   }
   
-  if(imgMisa.getBoundingClientRect().top < screenSize) {
+  if(txtMisa.getBoundingClientRect().top < screenSize) {
     imgMisa.classList.add('visible');
     txtMisa.classList.add('visible');
   } else {
@@ -42,7 +42,7 @@ window.addEventListener('scroll', function()  {
     txtMisa.classList.remove('visible');
   }
   
-  if(imgRecepcion.getBoundingClientRect().top < screenSize) {
+  if(txtRecepcion.getBoundingClientRect().top < screenSize) {
     imgRecepcion.classList.add('visible');
     txtRecepcion.classList.add('visible');
   } else {
@@ -50,7 +50,7 @@ window.addEventListener('scroll', function()  {
     txtRecepcion.classList.remove('visible');
   }
   
-  if(imgProtocolo.getBoundingClientRect().top < screenSize) {
+  if(imgProtocolo.getBoundingClientRect().top < (screenSize - 200)) {
     imgProtocolo.classList.add('visible');
   } else {
     imgProtocolo.classList.remove('visible');
