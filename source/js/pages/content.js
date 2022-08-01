@@ -34,7 +34,7 @@ window.addEventListener('scroll', function()  {
     txtCronograma.classList.remove('visible');
   }
   
-  if(txtMisa.getBoundingClientRect().top < screenSize) {
+  if(txtMisa.getBoundingClientRect().top < (screenSize + 300)) {
     imgMisa.classList.add('visible');
     txtMisa.classList.add('visible');
   } else {
@@ -42,7 +42,7 @@ window.addEventListener('scroll', function()  {
     txtMisa.classList.remove('visible');
   }
   
-  if(txtRecepcion.getBoundingClientRect().top < screenSize) {
+  if(txtRecepcion.getBoundingClientRect().top < (screenSize + 300)) {
     imgRecepcion.classList.add('visible');
     txtRecepcion.classList.add('visible');
   } else {
@@ -456,6 +456,11 @@ function updateValue(e) {
 
   if(valor == "MH0309"){
     invitado.innerHTML =  "MICHAEL HERRERA";
+    codigoCorrecto = true;
+  } 
+
+  if(valor == "AH0309"){
+    invitado.innerHTML =  "ANDRES HERNANDEZ";
     codigoCorrecto = true;
   } 
 
