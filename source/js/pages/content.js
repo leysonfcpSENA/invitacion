@@ -89,7 +89,7 @@ function updateValue(e) {
     codigoCorrecto = true;
   } 
 
-  if(valor == "ML0309"){
+  if(valor == "MP0309"){
     invitado.innerHTML =  "MARTHA PEREZ LOZANO <br> LINA MARCELA MARIN <br> GERONIMO ATHEORTUA";
     codigoCorrecto = true;
   } 
@@ -129,7 +129,7 @@ function updateValue(e) {
     codigoCorrecto = true;
   } 
 
-  if(valor == "PA0309"){
+  if(valor == "AJ0309"){
     invitado.innerHTML =  "ANIBAL PEREZ <br> JULIAN PEREZ";
     codigoCorrecto = true;
   } 
@@ -234,7 +234,7 @@ function updateValue(e) {
     codigoCorrecto = true;
   } 
 
-  if(valor == "MJ0309"){
+  if(valor == "JM0309"){
     invitado.innerHTML =  "JAVIER ARIAS <br> MERY WALTEROS <br> MIGUEL ANGEL ARIAS WALTEROS";
     codigoCorrecto = true;
   } 
@@ -244,7 +244,7 @@ function updateValue(e) {
     codigoCorrecto = true;
   } 
 
-  if(valor == "SA0309"){
+  if(valor == "SC0309"){
     invitado.innerHTML =  "SERGIO ALEJANDRO AGUIRRE PARRA";
     codigoCorrecto = true;
   } 
@@ -279,7 +279,7 @@ function updateValue(e) {
     codigoCorrecto = true;
   } 
 
-  if(valor == "TJ0309"){
+  if(valor == "TT0309"){
     invitado.innerHTML =  "TATIANA JIMENEZ";
     codigoCorrecto = true;
   } 
@@ -446,6 +446,16 @@ function updateValue(e) {
 
   if(valor == "LU0309"){
     invitado.innerHTML =  "LEIDY VASQUEZ";
+    codigoCorrecto = true;
+  } 
+
+  if(valor == "JL0309"){
+    invitado.innerHTML =  "JOSE LUIS ARIAS";
+    codigoCorrecto = true;
+  } 
+
+  if(valor == "MH0309"){
+    invitado.innerHTML =  "MICHAEL HERRERA";
     codigoCorrecto = true;
   } 
 
