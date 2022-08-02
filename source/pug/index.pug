@@ -9,13 +9,22 @@ html(lang="es")
     body#page-home.theme-dark.page-header-textura
 
 
-        section#login.curso-indice-tematico.section
+        section#login.curso-indice-tematico.section(style="height: 700px !important;")
 
             .container
 
                 .row.justify-content-center
+                    
+                    .col-12.col-md-12
+                        .text-center.p-2
+                            img(src="assets/images/pages/confirmar/palomas.gif", alt="" width="50%")
+
                     .col-12.col-sm-10
-                        input.form-control(name='username', placeholder="Ingrese código de invitación", autofocus)
+                        input.form-control(name='username', placeholder="Ingrese aquí su código de invitación", autofocus)
+
+                    .col-12.col-sm-5.mt-4   
+                        .text-center.p-2
+                            img(src="assets/images/angeles.gif", alt="")
 
         section#invitacion.curso-indice-tematico.section
             .container

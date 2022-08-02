@@ -464,6 +464,11 @@ function updateValue(e) {
     codigoCorrecto = true;
   } 
 
+  if(valor == "JD0309"){
+    invitado.innerHTML =  "JUAN DAVID GARCIA";
+    codigoCorrecto = true;
+  } 
+
   if(codigoCorrecto == true){
     seccionLogin.style.display = "none";
     seccionInvitado.style.display = "flex";
