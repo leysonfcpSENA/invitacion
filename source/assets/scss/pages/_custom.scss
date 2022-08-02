@@ -282,6 +282,10 @@ ol.lista > li.mas:before {
     width: 400px;
 }
 
+.paloma {
+    width: 50% !important;
+}
+
 @media (max-width: 1000px) {
     .flor-derecha {
         position: relative;
@@ -296,6 +300,9 @@ ol.lista > li.mas:before {
         margin-left: 0rem;
         margin-top: 3em;
         width: 250px;
+    }
+    .paloma {
+        width: 100% !important;
     }
   }
 
