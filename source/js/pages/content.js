@@ -135,7 +135,7 @@ function updateValue(e) {
   } 
 
   if(valor == "SA0309"){
-    invitado.innerHTML =  "SANDRA PATRICIA MORENO <br> AMPARO CARVAJAR <br> JHON FREDY MORENO <br> ANGIE PAOLA MORENO <br> ALBEIRO ARENAS";
+    invitado.innerHTML =  "SANDRA PATRICIA MORENO <br> AMPARO CARVAJAL <br> JHON FREDY MORENO <br> ANGIE PAOLA MORENO <br> ALBEIRO ARENAS";
     codigoCorrecto = true;
   } 
 
@@ -150,7 +150,7 @@ function updateValue(e) {
   } 
 
   if(valor == "MO0309"){
-    invitado.innerHTML =  "MARIELA CARVAJAR <br> PAOLA CARVAJAR E HIJAS";
+    invitado.innerHTML =  "MARIELA CARVAJAL <br> PAOLA CARVAJAL E HIJAS";
     codigoCorrecto = true;
   } 
 
@@ -185,7 +185,7 @@ function updateValue(e) {
   } 
 
   if(valor == "RA0309"){
-    invitado.innerHTML =  "LIBIA VALENCIA <br> RUBY SUAREZ <br> ADIELA SUAREZ <br> GLORIA SUAREZ <br> KATERINE SUAREZ <br> ALBA SUAREZ";
+    invitado.innerHTML =  "LIBIA VALENCIA <br> RUBY SUAREZ <br> ADIELA SUAREZ <br> GLORIA SUAREZ <br> KATERINE SUAREZ <br> ALBA SUAREZ <BR> JUAN DIEGO SUAREZ";
     codigoCorrecto = true;
   } 
 
@@ -275,7 +275,7 @@ function updateValue(e) {
   } 
 
   if(valor == "PA0309"){
-    invitado.innerHTML =  "ANDRES FELIPE GRACIA GALINDO <br> MARTIN GARCIA";
+    invitado.innerHTML =  "ANDRES FELIPE GARCIA GALINDO <br> MARTIN GARCIA";
     codigoCorrecto = true;
   } 
 
@@ -300,7 +300,7 @@ function updateValue(e) {
   } 
 
   if(valor == "DV0309"){
-    invitado.innerHTML =  "DIEGO LOPEZ <br> VILMA MORALES";
+    invitado.innerHTML =  "DIEGO LOPEZ <br> BILMA MORALES";
     codigoCorrecto = true;
   } 
 
@@ -466,6 +466,21 @@ function updateValue(e) {
 
   if(valor == "JD0309"){
     invitado.innerHTML =  "JUAN DAVID GARCIA";
+    codigoCorrecto = true;
+  } 
+
+  if(valor == "NP0309"){
+    invitado.innerHTML =  "NANCY PEREZ";
+    codigoCorrecto = true;
+  } 
+
+  if(valor == "IZ0309"){
+    invitado.innerHTML =  "JUANITA ISAZA <BR> GABRIEL ISAZA <BR> Y FAMILIA";
+    codigoCorrecto = true;
+  } 
+
+  if(valor == "EM0309"){
+    invitado.innerHTML =  "ELENA MONCADA y FAMILIA ";
     codigoCorrecto = true;
   } 
 
